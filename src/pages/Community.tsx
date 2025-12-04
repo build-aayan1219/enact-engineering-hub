@@ -2,20 +2,10 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { 
   MessageCircle, 
-  Users, 
-  BookOpen, 
-  Zap, 
   Instagram, 
-  Linkedin,
   ArrowRight,
   CheckCircle
 } from "lucide-react";
-
-const stats = [
-  { label: "Active Members", value: "5,000+", icon: Users },
-  { label: "Resources Shared", value: "500+", icon: BookOpen },
-  { label: "Active Domains", value: "10+", icon: Zap },
-];
 
 const benefits = [
   "Access to exclusive study materials and resources",
@@ -32,7 +22,7 @@ const socialPlatforms = [
     description: "Join our main community hub for real-time discussions and updates.",
     icon: MessageCircle,
     color: "bg-green-500",
-    link: "https://chat.whatsapp.com/your-link",
+    link: "https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi",
     cta: "Join WhatsApp",
     active: true,
   },
@@ -44,24 +34,6 @@ const socialPlatforms = [
     link: "https://instagram.com/enact",
     cta: "Follow Us",
     active: true,
-  },
-  {
-    name: "LinkedIn",
-    description: "Connect with us for professional updates and opportunities.",
-    icon: Linkedin,
-    color: "bg-blue-600",
-    link: "https://linkedin.com/company/enact",
-    cta: "Connect",
-    active: true,
-  },
-  {
-    name: "Discord Server",
-    description: "Coming soon! A dedicated space for voice chats and study groups.",
-    icon: MessageCircle,
-    color: "bg-indigo-500",
-    link: "#",
-    cta: "Coming Soon",
-    active: false,
   },
 ];
 
@@ -84,7 +56,7 @@ export default function Community() {
             </p>
 
             <Button variant="hero" size="xl" asChild>
-              <a href="https://chat.whatsapp.com/your-link" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi" target="_blank" rel="noopener noreferrer">
                 <MessageCircle size={20} />
                 Join WhatsApp Community
                 <ArrowRight size={20} />
@@ -94,22 +66,6 @@ export default function Community() {
         </div>
       </section>
 
-      {/* Stats */}
-      <section className="py-16 bg-background">
-        <div className="container mx-auto px-4">
-          <div className="grid md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            {stats.map((stat) => (
-              <div key={stat.label} className="glass-card rounded-2xl p-8 text-center hover-lift">
-                <div className="w-14 h-14 gradient-bg rounded-xl flex items-center justify-center mx-auto mb-4">
-                  <stat.icon className="text-primary-foreground" size={28} />
-                </div>
-                <div className="text-3xl font-bold text-foreground mb-1">{stat.value}</div>
-                <div className="text-muted-foreground">{stat.label}</div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Benefits */}
       <section className="py-20 bg-accent/30">
@@ -168,7 +124,7 @@ export default function Community() {
             </p>
           </div>
 
-          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6 max-w-5xl mx-auto">
+          <div className="grid sm:grid-cols-2 gap-6 max-w-2xl mx-auto">
             {socialPlatforms.map((platform) => (
               <div
                 key={platform.name}

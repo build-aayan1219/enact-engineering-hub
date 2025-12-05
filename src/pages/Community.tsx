@@ -22,7 +22,7 @@ const socialPlatforms = [
     description: "Join our main community hub for real-time discussions and updates.",
     icon: MessageCircle,
     color: "bg-green-500",
-    link: "https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi",
+    link: "https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi?mode=ac_t",
     cta: "Join WhatsApp",
     active: true,
   },
@@ -56,7 +56,7 @@ export default function Community() {
             </p>
 
             <Button variant="hero" size="xl" asChild>
-              <a href="https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi" target="_blank" rel="noopener noreferrer">
+              <a href="https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi?mode=ac_t" target="_blank" rel="noopener noreferrer">
                 <MessageCircle size={20} />
                 Join WhatsApp Community
                 <ArrowRight size={20} />

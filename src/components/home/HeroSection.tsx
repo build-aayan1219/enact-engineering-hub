@@ -18,7 +18,7 @@ export function HeroSection() {
           <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full glass-card mb-8 animate-fade-up">
             <span className="w-2 h-2 rounded-full bg-green-500 animate-pulse" />
             <span className="text-sm font-medium text-muted-foreground">
-              Trusted by 5,000+ Engineering Students
+              Trusted by 1,000+ Active Members
             </span>
           </div>
 
@@ -55,7 +55,7 @@ export function HeroSection() {
               <div className="w-12 h-12 gradient-bg rounded-xl flex items-center justify-center mx-auto mb-3">
                 <Users className="text-primary-foreground" size={24} />
               </div>
-              <div className="text-3xl font-bold text-foreground mb-1">5,000+</div>
+              <div className="text-3xl font-bold text-foreground mb-1">1,000+</div>
               <div className="text-sm text-muted-foreground">Active Members</div>
             </div>
             <div className="glass-card rounded-2xl p-6 hover-lift">

@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { MessageCircle, X, Send, Instagram, Linkedin } from "lucide-react";
+import { MessageCircle, X, Send, Instagram } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { cn } from "@/lib/utils";
 
@@ -20,7 +20,7 @@ export function FloatingContact() {
         <h4 className="font-semibold text-foreground mb-3">Quick Contact</h4>
         <div className="space-y-2">
           <a
-            href="https://wa.me/1234567890"
+            href="https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi?mode=ac_t"
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 p-3 rounded-xl bg-green-500/10 text-green-600 hover:bg-green-500/20 transition-colors"
@@ -29,22 +29,13 @@ export function FloatingContact() {
             <span className="text-sm font-medium">WhatsApp</span>
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw=="
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center gap-3 p-3 rounded-xl bg-pink-500/10 text-pink-600 hover:bg-pink-500/20 transition-colors"
           >
             <Instagram size={20} />
             <span className="text-sm font-medium">Instagram</span>
-          </a>
-          <a
-            href="https://linkedin.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-3 p-3 rounded-xl bg-blue-500/10 text-blue-600 hover:bg-blue-500/20 transition-colors"
-          >
-            <Linkedin size={20} />
-            <span className="text-sm font-medium">LinkedIn</span>
           </a>
         </div>
       </div>

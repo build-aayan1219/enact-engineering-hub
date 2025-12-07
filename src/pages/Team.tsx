@@ -1,5 +1,5 @@
 import { Layout } from "@/components/layout/Layout";
-import { Instagram, Linkedin, Github, Mail } from "lucide-react";
+import { Instagram, Github, Mail } from "lucide-react";
 
 // Team member data - easily editable
 const teamMembers = [
@@ -11,8 +11,7 @@ const teamMembers = [
     initials: "JD",
     bio: "Computer Science student passionate about education technology.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:john@enact.com",
     },
@@ -25,8 +24,7 @@ const teamMembers = [
     initials: "JS",
     bio: "Full-stack developer with expertise in React and Node.js.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:jane@enact.com",
     },
@@ -39,8 +37,7 @@ const teamMembers = [
     initials: "AJ",
     bio: "Creating quality educational content for engineering students.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:alex@enact.com",
     },
@@ -53,8 +50,7 @@ const teamMembers = [
     initials: "SW",
     bio: "UI/UX designer crafting beautiful and intuitive experiences.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:sarah@enact.com",
     },
@@ -67,8 +63,7 @@ const teamMembers = [
     initials: "MB",
     bio: "Building and nurturing the ENACT community across platforms.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:mike@enact.com",
     },
@@ -81,8 +76,7 @@ const teamMembers = [
     initials: "ED",
     bio: "Managing social presence and driving engagement.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:emily@enact.com",
     },
@@ -95,8 +89,7 @@ const teamMembers = [
     initials: "CL",
     bio: "Researching and curating the best resources for students.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:chris@enact.com",
     },
@@ -109,8 +102,7 @@ const teamMembers = [
     initials: "LW",
     bio: "Creating engaging video content for our YouTube channel.",
     socials: {
-      instagram: "https://instagram.com",
-      linkedin: "https://linkedin.com",
+      instagram: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
       github: "https://github.com",
       email: "mailto:lisa@enact.com",
     },
@@ -119,7 +111,6 @@ const teamMembers = [
 
 const socialIcons = [
   { key: "instagram", icon: Instagram },
-  { key: "linkedin", icon: Linkedin },
   { key: "github", icon: Github },
   { key: "email", icon: Mail },
 ];

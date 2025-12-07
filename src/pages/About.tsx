@@ -69,7 +69,7 @@ export default function About() {
                 We realized that thousands of students across the country faced the same challenges. Information was scattered, mentorship was scarce, and the gap between college curriculum and industry requirements was widening.
               </p>
               <p>
-                So we decided to do something about it. We started collecting resources, creating roadmaps, and building a community of like-minded students. What began as a small WhatsApp group has now grown into a thriving community of over 5,000 engineering students.
+                So we decided to do something about it. We started collecting resources, creating roadmaps, and building a community of like-minded students. What began as a small WhatsApp group has now grown into a thriving community of over 1,000 active members.
               </p>
               <p>
                 Today, ENACT is more than just a resource platform. It's a movement to democratize engineering education and ensure that no student is left behind due to lack of access to quality materials or guidance.
@@ -132,8 +132,8 @@ export default function About() {
 
             <div className="glass-card rounded-3xl p-8 lg:p-12">
               <div className="text-center">
-                <div className="text-6xl font-bold gradient-text mb-2">5,000+</div>
-                <div className="text-muted-foreground mb-8">Students in our community</div>
+                <div className="text-6xl font-bold gradient-text mb-2">1,000+</div>
+                <div className="text-muted-foreground mb-8">Active members in our community</div>
                 
                 <div className="grid grid-cols-2 gap-6">
                   <div className="p-4 bg-accent/50 rounded-xl">

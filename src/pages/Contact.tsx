@@ -10,13 +10,13 @@ const contactInfo = [
   {
     icon: Mail,
     title: "Email Us",
-    details: "contact@enact.com",
+    details: "official.enact@gmail.com",
     description: "We'll respond within 24 hours",
   },
   {
     icon: MapPin,
     title: "Location",
-    details: "India",
+    details: "Pune, India",
     description: "Operating remotely nationwide",
   },
   {

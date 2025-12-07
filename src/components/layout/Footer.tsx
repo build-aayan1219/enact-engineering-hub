@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { Instagram, Linkedin, MessageCircle, Mail, ExternalLink } from "lucide-react";
+import { Instagram, MessageCircle, Mail, ExternalLink } from "lucide-react";
 
 const footerLinks = {
   resources: [
@@ -16,16 +16,14 @@ const footerLinks = {
   ],
   community: [
     { name: "WhatsApp", path: "/community" },
-    { name: "Discord", path: "/community" },
     { name: "Events", path: "/community" },
   ],
 };
 
 const socialLinks = [
-  { name: "Instagram", icon: Instagram, href: "https://instagram.com" },
-  { name: "LinkedIn", icon: Linkedin, href: "https://linkedin.com" },
-  { name: "WhatsApp", icon: MessageCircle, href: "https://whatsapp.com" },
-  { name: "Email", icon: Mail, href: "mailto:contact@enact.com" },
+  { name: "Instagram", icon: Instagram, href: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==" },
+  { name: "WhatsApp", icon: MessageCircle, href: "https://chat.whatsapp.com/CvbMVNznwalA8hp5UUSHqi?mode=ac_t" },
+  { name: "Email", icon: Mail, href: "mailto:official.enact@gmail.com" },
 ];
 
 export function Footer() {

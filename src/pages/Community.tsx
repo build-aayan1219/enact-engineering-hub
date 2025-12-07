@@ -31,7 +31,7 @@ const socialPlatforms = [
     description: "Follow us for daily tips, motivation, and resource highlights.",
     icon: Instagram,
     color: "bg-gradient-to-br from-purple-500 to-pink-500",
-    link: "https://instagram.com/enact",
+    link: "https://www.instagram.com/enact.official?igsh=MTV6a21hd3dyNjBkaw==",
     cta: "Follow Us",
     active: true,
   },

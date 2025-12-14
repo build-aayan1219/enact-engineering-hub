@@ -3,7 +3,6 @@ import { Layout } from "@/components/layout/Layout";
 import { Button } from "@/components/ui/button";
 import { 
   BookOpen, 
-  FileText, 
   Code, 
   Brain, 
   Wrench, 
@@ -17,7 +16,6 @@ import { Input } from "@/components/ui/input";
 const categories = [
   { id: "all", name: "All Resources", icon: Filter },
   { id: "notes", name: "Notes", icon: BookOpen },
-  { id: "pyqs", name: "PYQs", icon: FileText },
   { id: "coding", name: "Coding", icon: Code },
   { id: "ml-ai", name: "ML & AI", icon: Brain },
   { id: "tools", name: "Tools", icon: Wrench },
@@ -33,15 +31,6 @@ const resources = [
     icon: BookOpen,
     link: "#",
     tags: ["All Branches", "Semester-wise"],
-  },
-  {
-    id: 2,
-    title: "Past Year Question Papers",
-    description: "Collection of PYQs from top universities with detailed solutions.",
-    category: "pyqs",
-    icon: FileText,
-    link: "#",
-    tags: ["2020-2024", "With Solutions"],
   },
   {
     id: 3,
